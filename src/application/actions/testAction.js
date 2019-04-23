@@ -8,7 +8,7 @@ export const checkRedux = bool => dispatch =>
 
 export const sampleAPICall = () => {
   // url is given
-  const url = `${ActionUrl.TEST_URL}`;
+  const url = `${ActionUrl.DUMMY_URL}`;
   return async dispatch => {
     try {
       // a spinner will be initialised in the component
